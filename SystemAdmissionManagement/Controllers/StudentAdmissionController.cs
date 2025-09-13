@@ -18,7 +18,7 @@ namespace SystemAdmissionManagement.Controllers
         };
 
         // GET: api/<StudentAdmissionController>
-        [HttpGet("GetStudentDetail")]
+        [HttpGet()]
         public IEnumerable<StudentAdmissionDetails> Get()
         {
             return studentAdmissionDetails;
